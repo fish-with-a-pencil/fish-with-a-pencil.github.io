@@ -26,14 +26,14 @@ headThing {
 	height: 70%;
 	width: 250px;
 	border: 1px dashed;
-	margin-bottom: 10px;
 }
 
 .sidebarB {
-	height: 20%;
+	height: 180px;
 	left: 10px;
 	width: 250px;
 	border: 1px dashed;
+	margin-top: 10px;
 	
 }
 
