@@ -12,6 +12,8 @@ body {
 headThing {
 	font-size:24px;
 	font-weight: 700;
+	position: relative;
+	left: 260px;
 }
 
 #sidebarContainer {
@@ -44,7 +46,7 @@ headThing {
 	width: 1000px;
 	border: 1px dashed;
 }
-post:title {
+post:T {
 	font-size:20px;
 	font-weight: 700;
 	text-align: center;	
