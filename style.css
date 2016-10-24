@@ -40,8 +40,8 @@ headThing {
 .post {
 	position: relative;
 	top: 50px;
-	left: 270px;
-	width: 600px;
+	left: 260px;
+	width: 1000px;
 	border: 1px dashed;
 }
 post:title {
@@ -52,4 +52,5 @@ post:title {
 
 post:content {
 	font-size: 16px;
+	font-weight: 400;
 }
