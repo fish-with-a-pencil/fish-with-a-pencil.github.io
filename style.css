@@ -23,13 +23,13 @@ headThing {
 }
 
 .sidebarA {
-	height: 70%;
+	height: 400px;
 	width: 250px;
 	border: 1px dashed;
 }
 
 .sidebarB {
-	height: 20%;
+	height: 150px;
 	left: 10px;
 	width: 250px;
 	border: 1px dashed;
@@ -37,14 +37,17 @@ headThing {
 	
 }
 
-.postTitle {
+.post {
+	float: right;
+	width: 500px;
+	border: 1px dashed;
+}
+post:title {
 	font-size:20px;
 	font-weight: 700;
 	text-align: center;	
 }
 
-.postContent {
+post:content {
 	font-size: 16px;
-	
-	
 }
