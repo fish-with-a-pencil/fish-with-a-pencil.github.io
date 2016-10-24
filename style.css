@@ -14,7 +14,7 @@ headThing {
 	font-weight: 700;
 }
 
-sidebarContainer {
+#sidebarContainer {
 	position: fixed;
 	left: 10px;
 	top: 10px;
@@ -22,13 +22,13 @@ sidebarContainer {
 	font-size: 16px;
 }
 
-sidebarA {
+.sidebarA {
 	height: 70%;
 	width: 250px;
 	border: 1px dashed;
 }
 
-sidebarB {
+.sidebarB {
 	height: 20%;
 	left: 10px;
 	width: 250px;
@@ -36,13 +36,13 @@ sidebarB {
 	
 }
 
-postTitle {
+.postTitle {
 	font-size:20px;
 	font-weight: 700;
 	text-align: center;	
 }
 
-postContent {
+.postContent {
 	font-size: 16px;
 	
 	
