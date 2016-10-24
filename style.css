@@ -38,8 +38,8 @@ headThing {
 }
 
 .post {
-	float: right;
-	width: 500px;
+	float: left;
+	width: 1000px;
 	border: 1px dashed;
 }
 post:title {
