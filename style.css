@@ -41,6 +41,7 @@ headThing {
 	position: relative;
 	top: 50px;
 	left: 270px;
+	width: 600px;
 	border: 1px dashed;
 }
 post:title {
