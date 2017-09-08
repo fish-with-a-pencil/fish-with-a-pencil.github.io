@@ -17,27 +17,10 @@ body {
 	border: 3px;
 }
 
-#sidebarContainer {
-	position: fixed;
-	left: 10px;
-	top: 10px;
-	height: 100%;
-	font-size: 16px;
-}
-
 .sidebarA {
 	height: 400px;
 	width: 250px;
 	border: 1px dashed;
-}
-
-.sidebarB {
-	height: 150px;
-	left: 10px;
-	width: 250px;
-	border: 1px dashed;
-	margin-top: 10px;
-	
 }
 
 .post {
