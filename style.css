@@ -63,5 +63,15 @@ post .content {
     height: 40px;
     font-weight: 400;
     background-color: #5b5b5b;
-    color: ##d8d8d8;
+    color: #d8d8d8;
+    text-align: right;
+    position:fixed;
+}
+
+.topBar .a {
+    text-decoration: none;
+}
+
+.topBar .a .hover {
+    color: white;
 }
