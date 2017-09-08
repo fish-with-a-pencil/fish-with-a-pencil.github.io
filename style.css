@@ -58,7 +58,7 @@ post .content {
 	font-weight: 400;
 }
 
-.topBar {
+#topBar {
     width: 100%;
     height: 40px;
     font-weight: 400;
