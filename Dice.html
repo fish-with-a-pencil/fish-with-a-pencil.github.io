@@ -3,81 +3,79 @@
     <head>
         <link rel="stylesheet" type="text/css" href="style.css">
         <style type="text/css">
-            #D4 {
-                background-color:#5b5b5b;
-                padding: 15px;
-                font-size: 20px;
-                color: #d8d8d8;
-                border: none;
-                margin-right: 15px;
-            }
+    #D4 {
+        background-color:#5b5b5b;
+        padding: 15px;
+        font-size: 20px;
+        color: #d8d8d8;
+        border: none;
+        margin-right: 15px;
+    }
 
-            #D6 {
-                background-color:#5b5b5b;
-                padding: 15px;
-                font-size: 20px;
-                color: #d8d8d8;
-                border: none;
-                margin-right: 15px;
-            }
+    #D6 {
+        background-color:#5b5b5b;
+        padding: 15px;
+        font-size: 20px;
+        color: #d8d8d8;
+        border: none;
+        margin-right: 15px;
+    }
 
-            #D8 {
-                background-color:#5b5b5b;
-                padding: 15px;
-                font-size: 20px;
-                color: #d8d8d8;
-                border:none;
-                margin-right: 15px;
-            }
+    #D8 {
+        background-color:#5b5b5b;
+        padding: 15px;
+        font-size: 20px;
+        color: #d8d8d8;
+        border:none;
+        margin-right: 15px;
+    }
 
 
-            #D10 {
-                background-color:#5b5b5b;
-                padding: 15px;
-                font-size: 20px;
-                color: #d8d8d8;
-                border:none;
-                margin-right: 15px;
-            }
+    #D10 {
+        background-color:#5b5b5b;
+        padding: 15px;
+        font-size: 20px;
+        color: #d8d8d8;
+        border:none;
+        margin-right: 15px;
+    }
 
-            #D12 {
-                background-color:#5b5b5b;
-                padding: 15px;
-                font-size: 20px;
-                color: #d8d8d8;
-                border:none;
-                margin-right: 15px;
-            }
+    #D12 {
+        background-color:#5b5b5b;
+        padding: 15px;
+        font-size: 20px;
+        color: #d8d8d8;
+        border:none;
+        margin-right: 15px;
+    }
 
-            #D20 {
-                background-color:#5b5b5b;
-                padding: 15px;
-                font-size: 20px;
-                color: #d8d8d8;
-                border:none;
-            }
+    #D20 {
+        background-color:#5b5b5b;
+        padding: 15px;
+        font-size: 20px;
+        color: #d8d8d8;
+        border:none;
+    }
 
-            #boxy {
-                width: 400px;
-                height: 400px;
-                background: white;
-                font-size: 34px;
-                margin: auto;
-                text-align: center;
-                display:block;
-            }
-            #roll {
-                display: inline-block;
-                vertical-align: middle;
-            }
+    #boxy {
+        width: 100px;
+        height: 100px;
+        margin-top: 150px;
+        margin-bottom: 150px;
+        background-color: rgba(217, 217, 217, .5);
+        border: 1px, dashed,#5b5b5b;
+        font-size: 34px;
+        margin: auto;
+        text-align: center;
+        display: block;
+    }
 
-            #contain {
-                display: block;
-                width: 100%;
-                top: 500px;
-            }
+    .roll {
+        display: inline-block;
+        vertical-align: middle;
+    }
 
-        </style>
+    </style>
             <script>
             function rigged4() {
                 var rolll;
@@ -252,7 +250,6 @@
                 <a href="http://a-real-magical-girl.tumblr.com/">TUMBLR</a>&nbsp;&nbsp;&nbsp;&nbsp;
             </p>
         </div>
-        <div id="contain">
             <div class="headThing">Rigged Dice</div>
             <content>
                 Welcome to
@@ -260,7 +257,7 @@
                 <i>will</i> go wrong™!
             </content>
             <div id="boxy">
-                <div id="roll">0</div>
+                <span class="roll">0</span>
             </div>
                 <button id="D4" onclick="rigged4()">Four-Sided</button>
                 <button id="D6" onclick="rigged6()">Six-Sided</button>
@@ -268,6 +265,5 @@
                 <button id="D10" onclick="rigged10()">Ten-Sided</button>
                 <button id="D12" onclick="rigged12()">Twelve</button>
                 <button id="D20" onclick="rigged20()">Twenty</button>
-        </div>
     </body>
 </html>
