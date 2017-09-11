@@ -60,6 +60,7 @@
     #boxy {
         width: 100px;
         height: 100px;
+        line-height: 100px;
         margin-top: 150px;
         margin-bottom: 150px;
         background-color: rgba(217, 217, 217, .5);
@@ -69,11 +70,6 @@
         margin-right: auto;
         text-align: center;
         display: block;
-    }
-
-    .roll {
-        display: inline-block;
-        vertical-align: middle;
     }
 
     </style>
@@ -258,7 +254,7 @@
                 <i>will</i> go wrong™!
             </content>
             <div id="boxy">
-                <span class="roll">0</span>
+                <span id="roll">0</span>
             </div>
                 <button id="D4" onclick="rigged4()">Four-Sided</button>
                 <button id="D6" onclick="rigged6()">Six-Sided</button>
