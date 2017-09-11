@@ -21,6 +21,8 @@ body {
 	height: 400px;
 	width: 250px;
 	border: 1px dashed;
+    position: fixed;
+    top: 60px;
 }
 
 .post {
