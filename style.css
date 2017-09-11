@@ -49,12 +49,15 @@ post .content {
     color: #d8d8d8;
     text-align: right;
     position:fixed;
+    top: -10px;
+    padding-top: 40px;
+    padding-right: 100px;
 }
 
-.topBar .a {
+a:link {
     text-decoration: none;
 }
 
-.topBar .a .hover {
+#topBar .a:hover {
     color: white;
 }
