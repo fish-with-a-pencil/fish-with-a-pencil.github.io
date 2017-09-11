@@ -4,9 +4,10 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i');
 
 body {
-	font-family: 'Open Sans', sans-serif;
-	background-image: url(pixelbackgrnd.png);
-	text-align:center;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(pixelbackgrnd.png);
+    text-align: center;
+    color: #5b5b5b;
 }
 
 .headThing {
@@ -22,8 +23,16 @@ body {
     width: 250px;
     background-color: rgba(217, 217, 217, .5);
     position: fixed;
-    top: 60px;
 }
+
+    .sidebarA a {
+        color: #5b5b5b;
+        text-decoration: none;
+    }
+
+    .sidebarA a:visited {
+        color: #5b5b5b;
+    }
 
 .post {
     position: relative;
@@ -32,13 +41,13 @@ body {
     width: 800px;
     background-color: rgba(217, 217, 217, .5);
 }
-post .T {
+.post .T {
 	font-size:20px;
 	font-weight: 700;
 	text-align: center;	
 }
 
-post .content {
+.post .content {
 	font-size: 16px;
 	font-weight: 400;
 }
