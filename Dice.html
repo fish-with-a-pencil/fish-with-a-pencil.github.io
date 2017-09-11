@@ -221,13 +221,6 @@
         border:none;
     }
 
-    #button-container {
-        width: 100%
-        position: absolute;
-        bottom: 0 px;
-        border: 1px black;
-    }
-
     .boxy {
         width: 400px;
         height: 400px;
@@ -253,21 +246,22 @@
                 <a href="fish-with-a-pencil.github.io">HOME</a>     <a href="https://anotherdamneddreamer.wordpress.com/">BLOG</a>     <a href="http://a-real-magical-girl.tumblr.com/">TUMBLR</a>
             </p>
         </div>
-        <div class="headThing">Rigged Dice</div>
-        <content> 
-            Welcome to <i>Everything is Shit</i>! The tabletop roleplaying game where everything than can go wrong,
-            <i>will</i> go wrong™!
-        </content>
-        <div class="boxy"> 
-            <span id="roll">0</span>
-        </div>
-        <div id="button-container">
-            <button id="D4" onclick="rigged4()">Four-Sided</button>
-            <button id="D6" onclick="rigged6()">Six-Sided</button>
-            <button id="D8" onclick="rigged8()">Eight</button>
-            <button id="D10" onclick="rigged10()">Ten-Sided</button>
-            <button id="D12" onclick="rigged12()">Twelve</button>
-            <button id="D20" onclick="rigged20()">Twenty</button>
+        <div style="top:100px; width:100%;">
+            <div class="headThing">Rigged Dice</div>
+            <content>
+                Welcome to
+                <i>Everything is Shit</i>! The tabletop roleplaying game where everything than can go wrong,
+                <i>will</i> go wrong™!
+            </content>
+            <div id="boxy">
+                <span id="roll">0</span>
+            </div>
+                <button id="D4" onclick="rigged4()">Four-Sided</button>
+                <button id="D6" onclick="rigged6()">Six-Sided</button>
+                <button id="D8" onclick="rigged8()">Eight</button>
+                <button id="D10" onclick="rigged10()">Ten-Sided</button>
+                <button id="D12" onclick="rigged12()">Twelve</button>
+                <button id="D20" onclick="rigged20()">Twenty</button>
         </div>
     </body>
 </html>
