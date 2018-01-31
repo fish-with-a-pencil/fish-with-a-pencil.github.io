@@ -63,7 +63,7 @@
         line-height: 100px;
         margin-top: 150px;
         margin-bottom: 150px;
-        background-color: rgba(217, 217, 217, .5);
+        background-color: #dddddd;
         border: 1px, dashed,#5b5b5b;
         font-size: 34px;
         margin-left: auto;
@@ -80,12 +80,16 @@
                 rolll = Math.floor((Math.random()*12)+1);
                 if(rolll <= 5) {
                     document.getElementById("roll").innerHTML = "1";
+                    document.getElementById("boxy").style.background-color = "#F18E8E";
                 } else if(rolll <=10) {
                     document.getElementById("roll").innerHTML = "2";
+                    document.getElementById("boxy").style.background-color = "#FEEB8E";
                 } else if(rolll == 11) {
                     document.getElementById("roll").innerHTML = "3";
+                    document.getElementById("boxy").style.background-color = "#82F7FC";
                 } else {
                     document.getElementById("roll").innerHTML = "4";
+                    document.getElementById("boxy").style.background-color = "#D5B5E3";
                 }
             }
 
