@@ -45,7 +45,8 @@ body {
 }
 
 .postContainer {
-	
+	position: static;
+	margin-top:70px;
 }
 
 #header_bar {
