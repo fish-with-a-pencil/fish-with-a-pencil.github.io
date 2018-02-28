@@ -244,13 +244,13 @@ background-color:#EFD8D8;
             }
 
             function flashA() {
-                document.getElementById("boxy").style.color = '#d8d8d8';
-                document.getElementById("boxy").style.backgroundColor = '#5b5b5b';
+                document.getElementById("boxy").style.color = '#EFD8D8';
+                document.getElementById("boxy").style.backgroundColor = '#A77171';
             }
 
             function flashB() {
-                document.getElementById("boxy").style.color = '#5b5b5b';
-                document.getElementById("boxy").style.backgroundColor = 'rgba(217, 217, 217, .5)';
+                document.getElementById("boxy").style.color = '#5B5B5B';
+                document.getElementById("boxy").style.backgroundColor = '#EFD8D8';
             }
             </script>
 
@@ -275,11 +275,11 @@ background-color:#EFD8D8;
             <div id="boxy">
                 <span id="roll">0</span>
             </div>
-                <button id="D4" onclick="rigged4()" onmousedown="flashA()" onmouseup="flashB()">Four-Sided</button>
-                <button id="D6" onclick="rigged6()" onmousedown="flashA()" onmouseup="flashB()">Six-Sided</button>
-                <button id="D8" onclick="rigged8()" onmousedown="flashA()" onmouseup="flashB()">Eight</button>
-                <button id="D10" onclick="rigged10()" onmousedown="flashA()" onmouseup="flashB()">Ten-Sided</button>
-                <button id="D12" onclick="rigged12()" onmousedown="flashA()" onmouseup="flashB()">Twelve</button>
+                <button id="D4" onclick="rigged4()" onmousedown="flashA()" onmouseup="flashB()" ontouchstart="flashA()" ontouchend="flashB()">Four-Sided</button>
+                <button id="D6" onclick="rigged6()" onmousedown="flashA()" onmouseup="flashB()" ontouchstart="flashA()" ontouchend="flashB()">Six-Sided</button>
+                <button id="D8" onclick="rigged8()" onmousedown="flashA()" onmouseup="flashB()" ontouchstart="flashA()" ontouchend="flashB()">Eight</button>
+                <button id="D10" onclick="rigged10()" onmousedown="flashA()" onmouseup="flashB()" ontouchstart="flashA()" ontouchend="flashB()">Ten-Sided</button>
+                <button id="D12" onclick="rigged12()" onmousedown="flashA()" onmouseup="flashB()" ontouchstart="flashA()" ontouchend="flashB()">Twelve</button>
                 <button id="D20" onclick="rigged20()" onmousedown="flashA()" onmouseup="flashB()">Twenty</button>
 			   </div>    
 		</div>
