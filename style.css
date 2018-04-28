@@ -73,3 +73,11 @@ body {
 #header_bar a:hover {
     color: #B7A6A7;
 }
+
+#header_bar ul {
+	list-style: none;
+}
+
+#header_bar li {
+	display: inline;
+}
